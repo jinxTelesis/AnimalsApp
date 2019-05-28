@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content"
+
+
+              android:layout_height="wrap_content"  android:orientation="horizontal" android:background="@color/gray">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@drawable/background_killer"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView
+                app:srcCompat="@drawable/baboon" android:id="@+id/imageView"
+                android:layout_weight="1" android:layout_width="50pt" android:layout_height="50pt"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="411dp"
+
+                android:layout_height="match_parent" android:layout_weight="1">
+            <TextView
+                    android:text="Baboons live in the zoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="1"/>
+            <TextView
+                    android:text="Baboon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
